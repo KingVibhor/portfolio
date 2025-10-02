@@ -1,7 +1,7 @@
-import Nav from '../components/NAV'
+import Nav from '../components/Nav'
 import Hero from '../components/Hero'
-import Projects from '../components/projects'
-import About from '../components/ABout'
+import Projects from '../components/Projects'
+import About from '../components/About'
 import Contact from '../components/Contact'
 
 export default function Home() {
