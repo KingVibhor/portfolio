@@ -1,6 +1,6 @@
-import Nav from '../components/Nav'
+import Nav from '../components/NAV'
 import Hero from '../components/Hero'
-import Projects from '../components/Projects'
+import Projects from '../components/projects'
 import About from '../components/ABout'
 import Contact from '../components/Contact'
 
