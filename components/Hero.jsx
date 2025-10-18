@@ -26,7 +26,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
-        className="mt-8 inline-block px-6 py-3 rounded-full bg-indigo-600 text-white font-medium shadow-lg"
+        className="mt-8 inline-block px-6 py-3 rounded-full bg-[#1E88E5] text-white font-medium shadow-lg"
       >
         See my work
       </motion.a>
