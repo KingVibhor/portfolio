@@ -5,15 +5,13 @@ const projects = [
     title: 'Automated Transcript Summarizer',
     description: 'Summarizes lecture videos using speech-to-text + LLM pipelines; produced timestamps and bullet summaries.',
     tags: ['Python', 'Whisper', 'LLM', 'FastAPI'],
-    repo: '#',
-    live: '#'
+    repo: 'https://github.com/KingVibhor/AI_Powered_Video_Summarizer'
   },
   {
     title: 'Twitter Bot (FastAPI)',
     description: 'Automated tweeting bot using FastAPI and SQLAlchemy; deployed with keep-alive scheduler.',
     tags: ['FastAPI', 'SQLAlchemy', 'Deployment'],
-    repo: '#',
-    live: '#'
+    repo: 'https://github.com/KingVibhor/twitterbot'
   }
 ]
 
@@ -40,8 +38,7 @@ export default function Projects() {
                 ))}
               </div>
               <div className="mt-4 flex items-center gap-4">
-                <a href={p.repo} className="text-sm underline">Repo</a>
-                <a href={p.live} className="text-sm underline">Live</a>
+                <a href={p.repo} className="text-sm underline" target="_blank" rel="noopener noreferrer">Repo</a>
               </div>
             </motion.div>
           ))}
