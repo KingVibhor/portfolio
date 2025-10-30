@@ -7,8 +7,6 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Vibhor Kumbhare</title>
-        <link rel="icon" href="/favicon.png" type="image/png" />  
-        {/* or if you used favicon.ico */}
          <link rel="icon" href="/favicon.ico" /> 
       </Head>
       <Component {...pageProps} />
